@@ -1,0 +1,447 @@
+"""Platform data for 30+ OTT platforms"""
+
+OTT_PLATFORMS = [
+    # Indian OTT Platforms
+    {
+        "name": "hotstar",
+        "display_name": "Disney+ Hotstar",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": 499.0,
+        "monthly_plan": None,
+        "yearly_plan": 1499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Live Sports", "Disney+ Content", "Hindi Shows", "English Movies"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu", "Malayalam", "Kannada"],
+        "website_url": "https://www.hotstar.com"
+    },
+    {
+        "name": "zee5",
+        "display_name": "Zee5",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": 699.0,
+        "monthly_plan": 299.0,
+        "yearly_plan": 999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Zee Content", "Regional Shows", "Movies", "Live TV"],
+        "languages": ["Hindi", "Tamil", "Telugu", "Bengali", "Malayalam", "Marathi"],
+        "website_url": "https://www.zee5.com"
+    },
+    {
+        "name": "sonyliv",
+        "display_name": "SonyLIV",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": 299.0,
+        "monthly_plan": 299.0,
+        "yearly_plan": 999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Live Sports", "Sony Shows", "WWE", "Movies"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu", "Malayalam"],
+        "website_url": "https://www.sonyliv.com"
+    },
+    {
+        "name": "sunnxt",
+        "display_name": "SunNXT",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 50.0,
+        "yearly_plan": 399.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["South Indian Content", "Sun TV Shows", "Regional Movies"],
+        "languages": ["Tamil", "Telugu", "Malayalam", "Kannada"],
+        "website_url": "https://www.sunnxt.com"
+    },
+    {
+        "name": "aha",
+        "display_name": "Aha Video",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 199.0,
+        "yearly_plan": 699.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Telugu Content", "Tamil Content", "Original Shows"],
+        "languages": ["Telugu", "Tamil"],
+        "website_url": "https://www.aha.video"
+    },
+    {
+        "name": "jiocinema",
+        "display_name": "JioCinema",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 29.0,
+        "yearly_plan": 999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Movies", "Shows", "Live Sports", "Free Content"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu", "Marathi"],
+        "website_url": "https://www.jiocinema.com"
+    },
+    {
+        "name": "voot",
+        "display_name": "Voot",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Colors Shows", "MTV", "Nickelodeon", "Viacom Content"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu", "Kannada"],
+        "website_url": "https://www.voot.com"
+    },
+    {
+        "name": "mxplayer",
+        "display_name": "MX Player",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": None,
+        "yearly_plan": None,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Free Content", "Original Shows", "Movies", "Web Series"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu", "Marathi"],
+        "website_url": "https://www.mxplayer.in"
+    },
+    {
+        "name": "erosnow",
+        "display_name": "Eros Now",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 49.0,
+        "yearly_plan": 399.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Bollywood Movies", "Original Shows", "Music Videos"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu"],
+        "website_url": "https://www.erosnow.com"
+    },
+    {
+        "name": "altbalaji",
+        "display_name": "ALTBalaji",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 100.0,
+        "yearly_plan": 300.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Original Web Series", "Hindi Content", "Bold Content"],
+        "languages": ["Hindi", "English"],
+        "website_url": "https://www.altbalaji.com"
+    },
+    
+    # International OTT Platforms
+    {
+        "name": "netflix",
+        "display_name": "Netflix",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": 149.0,
+        "monthly_plan": 199.0,
+        "yearly_plan": None,
+        "family_plan": 649.0,
+        "student_discount": None,
+        "features": ["Original Content", "Movies", "Series", "4K Quality"],
+        "languages": ["English", "Hindi", "Spanish", "Korean", "Japanese"],
+        "website_url": "https://www.netflix.com"
+    },
+    {
+        "name": "primevideo",
+        "display_name": "Amazon Prime Video",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 299.0,
+        "yearly_plan": 1499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Prime Delivery", "Amazon Originals", "Movies", "Series"],
+        "languages": ["English", "Hindi", "Tamil", "Telugu", "Malayalam"],
+        "website_url": "https://www.primevideo.com"
+    },
+    {
+        "name": "disneyplus",
+        "display_name": "Disney+",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 799.0,
+        "yearly_plan": 7999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Disney Content", "Marvel", "Star Wars", "Pixar"],
+        "languages": ["English", "Spanish", "French", "German"],
+        "website_url": "https://www.disneyplus.com"
+    },
+    {
+        "name": "hbomax",
+        "display_name": "HBO Max",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 999.0,
+        "yearly_plan": 9999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["HBO Originals", "Warner Bros Content", "Movies", "Series"],
+        "languages": ["English", "Spanish"],
+        "website_url": "https://www.hbomax.com"
+    },
+    {
+        "name": "hulu",
+        "display_name": "Hulu",
+        "icon": "🌍",
+        "country": "USA",
+        "mobile_plan": None,
+        "monthly_plan": 799.0,
+        "yearly_plan": 7999.0,
+        "family_plan": None,
+        "student_discount": 199.0,
+        "features": ["Current Season TV", "Original Shows", "Movies"],
+        "languages": ["English"],
+        "website_url": "https://www.hulu.com"
+    },
+    
+    # Additional Indian Platforms
+    {
+        "name": "lionsgateplay",
+        "display_name": "Lionsgate Play",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 699.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Hollywood Content", "Originals", "Premium Movies"],
+        "languages": ["English", "Hindi"],
+        "website_url": "https://www.lionsgateplay.com"
+    },
+    {
+        "name": "hoichoi",
+        "display_name": "Hoichoi",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Bengali Content", "Original Shows", "Movies"],
+        "languages": ["Bengali"],
+        "website_url": "https://www.hoichoi.tv"
+    },
+    {
+        "name": "discovery",
+        "display_name": "Discovery+",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Documentaries", "Reality Shows", "Educational Content"],
+        "languages": ["English", "Hindi"],
+        "website_url": "https://www.discoveryplus.in"
+    },
+    {
+        "name": "apple",
+        "display_name": "Apple TV+",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Apple Originals", "Exclusive Shows", "Movies"],
+        "languages": ["English"],
+        "website_url": "https://tv.apple.com"
+    },
+    {
+        "name": "youtube",
+        "display_name": "YouTube Premium",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 129.0,
+        "yearly_plan": 1290.0,
+        "family_plan": 189.0,
+        "student_discount": 79.0,
+        "features": ["Ad-free", "Background Play", "YouTube Music", "Downloads"],
+        "languages": ["All Languages"],
+        "website_url": "https://www.youtube.com/premium"
+    },
+    {
+        "name": "fancode",
+        "display_name": "FanCode",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 399.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Live Sports", "Cricket", "Football", "Kabaddi"],
+        "languages": ["English", "Hindi"],
+        "website_url": "https://www.fancode.com"
+    },
+    {
+        "name": "mubi",
+        "display_name": "Mubi",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 499.0,
+        "yearly_plan": 4999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Curated Films", "Art House Cinema", "Classic Movies"],
+        "languages": ["English", "Various"],
+        "website_url": "https://mubi.com"
+    },
+    {
+        "name": "epicgames",
+        "display_name": "Epic On",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": None,
+        "yearly_plan": 499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Mythology", "History", "Culture", "Documentaries"],
+        "languages": ["Hindi", "English", "Tamil", "Telugu"],
+        "website_url": "https://www.epicon.in"
+    },
+    {
+        "name": "shemaroome",
+        "display_name": "ShemarooMe",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 499.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Classic Bollywood", "Regional Content", "Devotional"],
+        "languages": ["Hindi", "Gujarati", "Marathi", "Bengali"],
+        "website_url": "https://www.shemaroome.com"
+    },
+    {
+        "name": "chaupal",
+        "display_name": "Chaupal",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 699.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Punjabi Content", "Regional Shows", "Movies"],
+        "languages": ["Punjabi", "Hindi"],
+        "website_url": "https://www.chaupal.com"
+    },
+    {
+        "name": "stage",
+        "display_name": "Stage OTT",
+        "icon": "🇮🇳",
+        "country": "India",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 599.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Haryanvi Content", "Bhojpuri Content", "Regional Entertainment"],
+        "languages": ["Haryanvi", "Bhojpuri", "Hindi"],
+        "website_url": "https://www.stage.in"
+    },
+    {
+        "name": "docubay",
+        "display_name": "DocuBay",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 699.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Documentaries", "Award-Winning Content", "Educational"],
+        "languages": ["English"],
+        "website_url": "https://www.docubay.com"
+    },
+    {
+        "name": "ivi",
+        "display_name": "IVI",
+        "icon": "🌍",
+        "country": "Russia",
+        "mobile_plan": None,
+        "monthly_plan": 199.0,
+        "yearly_plan": 1999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Russian Content", "Movies", "TV Series"],
+        "languages": ["Russian", "English"],
+        "website_url": "https://www.ivi.ru"
+    },
+    {
+        "name": "viu",
+        "display_name": "Viu",
+        "icon": "🌍",
+        "country": "Asia",
+        "mobile_plan": None,
+        "monthly_plan": 99.0,
+        "yearly_plan": 599.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Korean Dramas", "Asian Content", "Hindi Dubbed"],
+        "languages": ["Korean", "Hindi", "English", "Thai"],
+        "website_url": "https://www.viu.com"
+    },
+    {
+        "name": "curiositystream",
+        "display_name": "CuriosityStream",
+        "icon": "🌍",
+        "country": "Global",
+        "mobile_plan": None,
+        "monthly_plan": 299.0,
+        "yearly_plan": 1999.0,
+        "family_plan": None,
+        "student_discount": None,
+        "features": ["Documentaries", "Science", "History", "Nature"],
+        "languages": ["English"],
+        "website_url": "https://curiositystream.com"
+    }
+]
+
+
+def get_all_platforms():
+    """Get all OTT platforms"""
+    return OTT_PLATFORMS
+
+
+def get_platform_by_name(name: str):
+    """Get platform by name"""
+    for platform in OTT_PLATFORMS:
+        if platform["name"].lower() == name.lower():
+            return platform
+    return None
+
+
+def get_platforms_by_country(country: str):
+    """Get platforms by country"""
+    return [p for p in OTT_PLATFORMS if p["country"] == country or p["country"] == "Global"]
